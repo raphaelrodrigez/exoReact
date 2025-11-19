@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "pantallon",
+            "price": "",
+            "categorie": "HOMME",
+            "quantite": "2",
+            "imageUrl": "blob:http://localhost:3000/d5cbc0cc-ab81-4bd2-adef-1b0151da8dfb"
+          },
+          {
+            "id": "2",
+            "name": "",
+            "price": "",
+            "categorie": "FEMME",
+            "quantite": "12",
+            "imageUrl": "blob:http://localhost:3000/657d2db1-32fe-423e-a0d4-a0a036525ab7"
+          },
+          {
+            "id": "3",
+            "name": "pantallon",
+            "price": "11",
+            "categorie": "HOMME",
+            "quantite": "8",
+            "imageUrl": "blob:http://localhost:3000/d5758540-2abe-4d9f-ad4a-d1b2f3eb9fe1"
+          },
+          {
+            "id": "4",
+            "name": "",
+            "price": "99",
+            "categorie": "ENFANT",
+            "quantite": "12",
+            "imageUrl": "blob:http://localhost:3000/41341ad0-724c-4432-9f01-46abd809c2cd"
+          },
+          {
+            "id": "5"
+          }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "quantite": "2999",
+      "id": "1"
+    },
+    {
+      "prix": "30",
+      "quantite": "399",
+      "id": "4"
+    },
+    {
+      "id": 3,
+      "prix": "23",
+      "quantite": "3",
+      "image": "blob:http://localhost:3000/1187b5b0-728b-4700-8f5e-3f1d8eb446f5"
+    }
+  ]
+}

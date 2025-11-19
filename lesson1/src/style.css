@@ -1,0 +1,71 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    height: 100vh; /* pour que le body prenne toute la hauteur */
+    display: flex;
+    justify-content: center; /* centrage horizontal */
+    align-items: center;     /* centrage vertical */
+    flex-direction: column;  /* empilement vertical */
+}
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    height: 130px;
+    border-radius: 50%;
+    animation: monter 13s linear forwards; /* ajout de forwards pour garder la position finale */
+}
+
+.frm {
+    z-index: 999;
+    position: relative; /* relative pour être centré dans le body flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 2rem;
+    padding: 3rem 2rem; /* padding plus raisonnable pour le responsive */
+    background-color: #fff;
+    color: black;
+    font-size: 21px;
+    border-radius: 2rem;
+    max-width: 90vw; /* limite la largeur sur petits écrans */
+    box-sizing: border-box; /* inclure padding dans la largeur */
+}
+
+.container input {
+    width: 100%; /* prend toute la largeur du parent */
+    max-width: 400px; /* limite la largeur max */
+    height: 30px;
+    margin-top: 2rem;
+    border: 2px solid teal;
+    box-sizing: border-box;
+}
+.container button{
+    width: 70px;
+    padding: 6px;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border: none;
+}
+.container button:hover{
+    background-color: none;
+    border: 2px solid black;
+}
+.btnRed{
+    background-color: red;
+    margin-left: 2rem;
+
+}
+.btnGreen{
+    background-color: green;
+}
+@keyframes monter {
+    from { bottom: 0; }
+    to { bottom: 100%; }
+}
